@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="Your cart image">
+    </section>
+    <section>
+      <h2>Payment Information</h2>
+      <form method="POST" action="">
+      
+      <label for="card-name">Card Name:<span aria-hidden="true">*</span></label>
+      <input 
+       type="text" 
+       id="card-name"
+       name="card-name"
+       text="card-name"
+       required
+       aria-hidden="true">
+       </input>
+      
+      <label for="card-number">Card Number:<span aria-hidden="true">*</span></label>
+      <input
+    aria-describedby="card-number-help"
+       type="text"
+       id="card-number"
+       name="card-number"
+       required
+       aria-hidden="true"
+      ></input>
+
+      <p id="card-number-help">To find out your card number, look and your front of your card and the digits you see there is your card number.</p>
+    </form>
+    </section>
+
+</body>
+
+</html>
